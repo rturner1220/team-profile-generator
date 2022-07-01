@@ -10,3 +10,10 @@ test('creates a school object', () => {
     const emp = new Inter('Rmt', 1, 'inter@email.com', testValue);
     expect(emp.school).toBe(testValue);
 });
+
+test('get getschool name with getSchool() method', () => {
+    const testValue = 'UNC';
+    const emp = new Inter('Rmt', 1, 'inter@email.com', testValue);
+    expect(emp.getSchool()).toBe(testValue);
+ });
+ 

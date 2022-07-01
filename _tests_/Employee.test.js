@@ -17,8 +17,8 @@ test('creates an employee object', () => {
  });
 
  //getRole value is employee
- test('getRole() return Employee', () => {
-    const testValue = 'Employee';
-    const emp = new Employee('Rose', 1, 'employee@email.com');
-    expect(emp.getRole()).toBe(testValue);
- });
+ //test('getRole() return Employee', () => {
+   // const testValue = 'Employee';
+   // const emp = new Employee('Rose', 1, 'employee@email.com');
+ //   expect(emp.getRole()).toBe(testValue);
+// });
