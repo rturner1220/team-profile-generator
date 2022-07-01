@@ -1,0 +1,36 @@
+  * {
+    box-sizing: border-box;
+  }
+  
+body {
+    font-family: 'Public Sans', sans-serif;
+  }
+  
+.page-title {
+ color: white;
+ text-align: center; 
+ background-color: #02889a;
+ padding: 50px;
+ margin-top: 0;
+ margin-bottom: 50px;
+}
+.employee-card {
+    margin: 1em;
+    max-width: 350px;
+    width: 100%;
+    color: white;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.main-section {
+  margin: 2em auto;
+}
+
+.employee-card {
+    background-color: rgb(5, 92, 179);
+}
+
+footer {
+    padding-left: 50px;
+    padding-top: 12%;
+}
