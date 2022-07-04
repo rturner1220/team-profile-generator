@@ -32,6 +32,9 @@ module.exports = team => {
             </div>
         </div>
     </div>
+    <footer class="container text-center py-3">
+      <h3 class="text-dark">&copy; 2022 by Rosa</h3>
+    </footer>
   </body>
   </html>  
     `;
