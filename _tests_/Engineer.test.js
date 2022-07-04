@@ -1,4 +1,3 @@
-const { expect } = require('expect');
 const Employee = require('../lib/Employee')
 const Engineer = require('../lib/Engineer');
 
@@ -18,3 +17,9 @@ test('get github username with getGithub() method', () => {
    expect(emp.getGithub()).toBe(testValue);
 });
 
+ // getRole() value is engineer
+ test('getRole() return Engineer', () => {
+    const testValue = 'Engineer';
+    const emp = new Engineer('Rmt', 1, 'engineer@email.com', 'GitHubName');
+    expect(emp.getRole()).toBe(testValue);
+ })
